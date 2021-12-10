@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/MansiGanar/Netflix-Backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-list-endpoints": "^6.0.0",
     "fs-extra": "^10.0.0",
