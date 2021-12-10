@@ -1,0 +1,30 @@
+{
+  "name": "Netflix-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": " node src/server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MansiGanar/Netflix-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MansiGanar/Netflix-Backend/issues"
+  },
+  "homepage": "https://github.com/MansiGanar/Netflix-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.15",
+    "uniqid": "^5.4.0"
+  }
+}
