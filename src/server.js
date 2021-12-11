@@ -8,6 +8,7 @@ import {
   unauthorizedHandler,
   notFoundHandler,
 } from "./errorHandlers.js";
+import reviewsRouter from "./reviews/index.js";
 
 const server = express();
 const port = 3001;
@@ -16,6 +17,7 @@ server.use(cors());
 server.use(express.json());
 
 server.use("/media", mediaRouter);
+server.use("/reviews", reviewsRouter);
 
 server.use(badRequestHandler);
 server.use(unauthorizedHandler);
